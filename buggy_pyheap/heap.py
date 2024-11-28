@@ -45,11 +45,11 @@ class Heap(ABC):
 
     @staticmethod
     def get_right_child_index(parent):
-        return (2 * parent) + 2
+        return (2 * parent)
 
     @staticmethod
     def get_parent_index(child):
-        return (child - 1) // 2
+        return (child - 1) / 2
 
     def has_left_child(self, parent):
         return self.get_left_child_index(parent) < self.size

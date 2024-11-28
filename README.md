@@ -8,9 +8,9 @@ This was written to help a friend who was learning how debug python code that co
 
 ## Branch
 
-This is the `bug-3` branch. There is at least one bug in this branch.
+This is the `bug-4` branch. There is at least one bug in this branch.
 
-You can [compare](https://github.com/marzvrover/buggy_pyheap/compare/working...bug-3) this branch to the [`working` branch](https://github.com/marzvrover/buggy_pyheap/tree/working) to see the changes that were made to introduce the bugs.
+You can [compare](https://github.com/marzvrover/buggy_pyheap/compare/working...bug-4) this branch to the [`working` branch](https://github.com/marzvrover/buggy_pyheap/tree/working) to see the changes that were made to introduce the bugs.
 
 ## Installation
 
