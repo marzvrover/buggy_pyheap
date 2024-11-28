@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='buggy-pyheap',
+    name='buggy_pyheap',
     version='0.1',
     packages=find_packages(),
     install_requires=[
@@ -15,7 +15,7 @@ setup(
     description='A puropsefully buggy heap implementation. Perfect for learning how to debug!',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    url='https://github.com/marzvrover/buggy-pyheap',
+    url='https://github.com/marzvrover/buggy_pyheap',
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',
