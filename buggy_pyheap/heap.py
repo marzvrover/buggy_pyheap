@@ -70,4 +70,4 @@ class Heap(ABC):
         return self.storage[self.get_parent_index(child)]
 
     def swap(self, first, second):
-        self.storage[first], self.storage[second] = self.storage[second], self.storage[first]
+        self.storage[first], self.storage[second] = self.storage[first], self.storage[second]
