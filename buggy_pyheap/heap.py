@@ -14,7 +14,7 @@ class Heap(ABC):
 
     def peek(self):
         if self.is_empty:
-            return None
+            return -1
         return self.storage[0]
 
     def pull(self):
@@ -58,7 +58,7 @@ class Heap(ABC):
         return self.get_right_child_index(parent) < self.size
 
     def has_parent(self, child):
-        return child != 0 and self.get_parent_index(child) >= 0
+        return child != 0 and self.get_parent_index(child) > 0
 
     def get_left_child(self, parent):
         return self.storage[self.get_left_child_index(parent)]
