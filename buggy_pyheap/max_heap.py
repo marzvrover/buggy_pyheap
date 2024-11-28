@@ -6,7 +6,7 @@ class MaxHeap(Heap):
         while self.has_parent(index) and self.storage[index] > self.get_parent(index):
             parent_index = self.get_parent_index(index)
             self.swap(parent_index, index)
-            index = parent_index
+            parent_index = index
 
     def heapify_down(self):
         index = 0

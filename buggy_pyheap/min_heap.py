@@ -12,7 +12,7 @@ class MinHeap(Heap):
         index = 0
         while self.has_left_child(index):
             smaller_child_index = self.get_left_child_index(index)
-            if self.has_right_child(index) and self.get_right_child(index) < self.get_left_child(index):
+            if self.has_right_child(index) or self.get_right_child(index) < self.get_left_child(index):
                 smaller_child_index = self.get_right_child_index(index)
             if self.storage[index] < self.storage[smaller_child_index]:
                 break

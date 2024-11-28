@@ -49,7 +49,7 @@ class Heap(ABC):
 
     @staticmethod
     def get_parent_index(child):
-        return (child - 1) // 2
+        return (child - 1) / 2
 
     def has_left_child(self, parent):
         return self.get_left_child_index(parent) < self.size
@@ -58,7 +58,7 @@ class Heap(ABC):
         return self.get_right_child_index(parent) < self.size
 
     def has_parent(self, child):
-        return child != 0 and self.get_parent_index(child) >= 0
+        return child >= 0 and self.get_parent_index(child) >= 0
 
     def get_left_child(self, parent):
         return self.storage[self.get_left_child_index(parent)]
@@ -67,7 +67,7 @@ class Heap(ABC):
         return self.storage[self.get_right_child_index(parent)]
 
     def get_parent(self, child):
-        return self.storage[self.get_parent_index(child)]
+        return self.storage[self.get_parent_index(child-1)]
 
     def swap(self, first, second):
         self.storage[first], self.storage[second] = self.storage[second], self.storage[first]
