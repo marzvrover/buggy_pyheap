@@ -14,6 +14,16 @@ You can compare other branches to this branch to see the changes that were made 
 
 `https://github.com/marzvrover/buggy_pyheap/compare/working...<branch-name>`
 
+## Bug branches
+
+- [ ] [`bug-0`](https://github.com/marzvrover/buggy_pyheap/tree/bug-0)
+- [ ] [`bug-1`](https://github.com/marzvrover/bugg_pyheap/tree/bug-1)
+- [ ] [`bug-2`](https://github.com/marzvrover/buggy_pyheap/tree/bug-2)
+- [ ] [`bug-3`](https://github.com/marzvrover/buggy_pyheap/tree/bug-3)
+- [ ] [`bug-4`](https://github.com/marzvrover/buggy_pyheap/tree/bug-4)
+- [ ] [`bug-5`](https://github.com/marzvrover/buggy_pyheap/tree/bug-5)
+- [ ] [`bug-6`](https://github.com/marzvrover/buggy_pyheap/tree/bug-6)
+
 ## Installation
 
 The only requirement is `pytest`.
