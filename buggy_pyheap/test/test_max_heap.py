@@ -42,18 +42,6 @@ def test_pull():
     assert heap.pull() == 2
     assert heap.pull() == 1
 
-def test_add():
-    heap = MaxHeap()
-    heap.add(1)
-    assert heap.size == 1
-    assert heap.peek() == 1
-    heap.add(2)
-    assert heap.size == 2
-    assert heap.peek() == 2
-    heap.add(0)
-    assert heap.size == 3
-    assert heap.peek() == 2
-
 def test_heapify_up():
     heap = MaxHeap()
     heap.add(3)

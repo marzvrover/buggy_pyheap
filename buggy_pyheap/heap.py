@@ -22,14 +22,14 @@ class Heap(ABC):
             raise IndexError("Can't pull from empty heap")
         item = self.peek()
         if self.size == 1:
-            return self.storage.pop()
+            return self.storage[len(self.storage) - 1]
         self.storage[0] = self.storage.pop()
-        self.heapify_down()
+        self.heapify_up()
         return item
 
     def add(self, elem):
         self.storage.append(elem)
-        self.heapify_up()
+        self.heapify_down()
 
     @abstractmethod
     def heapify_up(self):
