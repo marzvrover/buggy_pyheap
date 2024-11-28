@@ -10,7 +10,7 @@ class Heap(ABC):
 
     @property
     def is_empty(self):
-        return self.size == 0
+        return self.size == -1
 
     def peek(self):
         if self.is_empty:

@@ -8,11 +8,9 @@ This was written to help a friend who was learning how debug python code that co
 
 ## Branch
 
-This is the `working` branch. The heap implementation here should work correctly with all the tests passing.
+This is the `bug-1` branch. There is at least one bug in this branch.
 
-You can compare other branches to this branch to see the changes that were made to introduce the bugs.
-
-`https://github.com/marzvrover/buggy_pyheap/compare/working...<branch-name>`
+You can [compare](https://github.com/marzvrover/buggy_pyheap/compare/working...bug-1) this branch to the [`working` branch](https://github.com/marzvrover/buggy_pyheap/tree/working) to see the changes that were made to introduce the bugs.
 
 ## Installation
 
